@@ -19,7 +19,7 @@
 
         /* Navbar Styles */
         .navbar {
-            background-color: #fff;
+            background-color: #424242;
             box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
             position: fixed;
             top: 0;
@@ -38,16 +38,6 @@
         .logo {
             display: flex;
             align-items: center;
-            text-decoration: none;
-            color: #2c3e50;
-            font-weight: 700;
-            font-size: 1.8rem;
-        }
-
-        .logo-icon {
-            color: #3498db;
-            margin-right: 10px;
-            font-size: 2rem;
         }
 
         /* Navigation Menu */
@@ -62,7 +52,7 @@
 
         .nav-link {
             text-decoration: none;
-            color: #2c3e50;
+            color: white;
             font-weight: 600;
             font-size: 1.05rem;
             transition: all 0.3s ease;
