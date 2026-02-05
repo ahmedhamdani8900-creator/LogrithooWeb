@@ -3,61 +3,79 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PrimeServe | Multi-Services Provider</title>
-    
-    <!-- Bootstrap 5 CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    
-    <!-- Font Awesome -->
+    <title>Professional Responsive Navbar</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
-    
-    <!-- AOS Animation Library -->
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="assets/css/style.css">
-    
-    <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="assets/images/logo.svg">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <!-- Navigation Bar -->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-        <div class="container">
-            <a class="navbar-brand" href="index.html">
-                <img src="logo.png" alt="LOGO" width="150px">
-                <!-- <i class="fas fa-cube me-2"></i>
-                <span class="brand-text">Prime<span class="text-primary">Serve</span></span> -->
+    <nav class="navbar">
+        <div class="container navbar-container">
+            <!-- Logo -->
+            <a href="#" class="logo">
+                <img src="images/logo.png" alt="">
             </a>
-            
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
+
+            <!-- Hamburger Menu (Mobile) -->
+            <button class="hamburger" id="hamburger">
+                <i class="fas fa-bars"></i>
             </button>
-            
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="about.html">About Us</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="services.html">Services</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
-                    </li>
-                    <li class="nav-item ms-lg-3">
-                        <a class="btn btn-primary" href="contact.html">Get Quote</a>
-                    </li>
-                </ul>
-            </div>
+
+            <!-- Navigation Menu -->
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="cta-button">Get Started</a>
+                </li>
+            </ul>
         </div>
     </nav>
+
+    <!-- Hero Section -->
+    <div class="container">
+        <section class="hero">
+            <h1>Professional Responsive Navbar</h1>
+            <p>This is a demonstration of a fully responsive navigation bar that works perfectly on all devices from desktop to mobile. Resize your browser window to see how it adapts.</p>
+            <a href="#" class="cta-button">Learn More</a>
+        </section>
+
+        <!-- Content Section -->
+        <section class="content">
+            <h2>About This Navbar</h2>
+            <p>This responsive navbar features a clean, modern design with smooth hover effects and a mobile-friendly hamburger menu. It includes:</p>
+            <ul style="margin-left: 30px; margin-bottom: 20px;">
+                <li>Fixed positioning at the top of the page</li>
+                <li>Responsive layout that adapts to all screen sizes</li>
+                <li>Smooth hover animations on navigation links</li>
+                <li>Mobile hamburger menu with smooth slide-in animation</li>
+                <li>Call-to-action button with hover effects</li>
+                <li>Professional color scheme and typography</li>
+            </ul>
+            <p>Try resizing your browser window to see how the navbar transforms from a desktop layout to a mobile-friendly menu.</p>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 TechSolutions. All rights reserved.</p>
+            <p>Responsive Professional Navbar Demo</p>
+        </div>
+    </footer>
 
 </body>
 </html>
