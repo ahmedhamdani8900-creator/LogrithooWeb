@@ -35,7 +35,9 @@
             padding: 15px 0;
             transition: var(--transition);
         }
-        
+        #navLogo{
+            width: 35%;
+        }
         .navbar-brand {
             font-weight: 700;
             font-size: 1.8rem;
